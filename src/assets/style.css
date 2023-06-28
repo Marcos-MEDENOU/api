@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: #39d2c0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #39d2c0;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
